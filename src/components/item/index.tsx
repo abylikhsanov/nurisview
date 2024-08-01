@@ -77,7 +77,7 @@ export const Item = ({endpoint}: Props) => {
                                 <SliderMainItem key={index} className="h-full">
                                     <Image
                                         className="object-contain w-full h-full transition-transform duration-300 hover:scale-105"
-                                        src={process.env.NEXT_PUBLIC_STRAPI_ENDPOINT + image}
+                                        src={image}
                                         width={250}
                                         height={300}
                                         alt={"image"}
@@ -97,7 +97,7 @@ export const Item = ({endpoint}: Props) => {
                                 >
                                     <Image
                                         className="rounded-md"
-                                        src={process.env.NEXT_PUBLIC_STRAPI_ENDPOINT + image}
+                                        src={image}
                                         width={80}
                                         height={100}
                                         alt={"thumbnail"}
@@ -119,7 +119,7 @@ export const Item = ({endpoint}: Props) => {
                             >
                                 <Image
                                     className="object-contain w-full h-full hover:cursor-pointer hover:bg-muted"
-                                    src={process.env.NEXT_PUBLIC_STRAPI_ENDPOINT + urls.imageUrl}
+                                    src={urls.imageUrl}
                                     alt={"additional"}
                                     width={200}
                                     height={150}

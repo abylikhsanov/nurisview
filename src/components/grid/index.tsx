@@ -143,7 +143,7 @@ export const Grid = ({endpoint}: Props) => {
                                 {item.attributes.images.data.map((image, index) => {
                                     return (
                                         <CarouselItem key={index}>
-                                            <Image className="object-cover w-full h-full" src={process.env.NEXT_PUBLIC_STRAPI_ENDPOINT + image.attributes.url}
+                                            <Image className="object-cover w-full h-full" src={image.attributes.url}
                                                    width={350} height={400} alt={"image"} />
                                         </CarouselItem>
 

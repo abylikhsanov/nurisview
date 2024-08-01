@@ -10,6 +10,10 @@ const nextConfig = {
                 protocol: 'http',
                 hostname: "localhost"
             },
+            {
+                protocol: 'https',
+                hostname: "renowned-beef-31ac8f664f.media.strapiapp.com",
+            }
         ]
     },
     reactStrictMode: false,
